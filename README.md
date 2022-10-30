@@ -31,3 +31,7 @@ docker run -it \
     -v $PROJECT_DIR/project/airflow:/home/airflow \
     -v $PROJECT_DIR/data:/data \
     spark-hadoop-airflow
+#4. show the airflow output
+```
+http://0.0.0.0:8085/tree?dag_id=example_bash_operator
+```
